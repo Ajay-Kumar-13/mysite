@@ -1,0 +1,24 @@
+{
+    "name": "my-site",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run watch:all",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lite": "lite-server",
+        "watch:all": "\"npm run lite\""
+    },
+    "author": "Ajay Kumar",
+    "license": "ISC",
+    "engines": {
+        "node": "14.x"
+    },
+    "dependencies": {
+        "bootstrap": "^4.6.1",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.6.0",
+        "lite-server": "^2.6.1",
+        "popper.js": "^1.16.1"
+    }
+}
